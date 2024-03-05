@@ -8,6 +8,7 @@ public class Alumno {
     int id;
     String nombre; 
     String apellido;
+    String dni;
 
     public Alumno() {
     }
@@ -41,4 +42,13 @@ public class Alumno {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+        
 }
